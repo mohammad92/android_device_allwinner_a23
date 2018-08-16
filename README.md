@@ -1,10 +1,9 @@
-## TWRP device tree for Allwinner A23 (Enet e714f)
-## polaris, exdroid, polaris_uarmmid, UARM-Tablet
+## TWRP device tree for Allwinner A23 Devices
 
 To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_polaris-eng
+lunch omni_a23-eng
 mka recoveryimage
 ```

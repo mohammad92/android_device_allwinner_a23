@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_polaris-eng
+add_lunch_combo omni_a23-eng
 

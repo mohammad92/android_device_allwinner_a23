@@ -3,6 +3,7 @@
 /env		emmc	/dev/block/nandb
 /boot		emmc	/dev/block/nandc	flags=backup=1
 /system		ext4	/dev/block/nandd	flags=backup=1;wipeingui
+/system_image	emmc	/dev/block/nandd
 /data		ext4	/dev/block/nande	flags=backup=1;wipeduringfactoryreset;wipeingui
 /misc		emmc	/dev/block/nandf
 /recovery	emmc	/dev/block/nandg	flags=backup=1
@@ -10,6 +11,6 @@
 /databk		ext4	/dev/block/nandi
 #/klog		emmc	/dev/block/nandj
 /logger		ext4	/dev/block/nandk
-/sdcard		vfat	/dev/block/nandl	flags=backup=1;storage;settingsstorage;display="Internal SDCard";wipeingui
-/external_sd	vfat	/dev/block/mmcblk0p1	flags=backup=1;storage;display="External SDCard";wipeingui;removable
+/sdcard		vfat	/dev/block/nandl	flags=display="Internal Storage";storage;settingsstorage;wipeingui
+/external_sd	vfat	/dev/block/mmcblk0p1	/dev/block/mmcblk0 flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg        vfat    /dev/block/sda1      /dev/block/sda	flags=removable;storage;wipeingui;usermrf;display="USB-OTG"

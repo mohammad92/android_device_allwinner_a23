@@ -1,4 +1,4 @@
 #
-# system.prop for polaris
+# system.prop for Allwinner A23
 #
 ro.hardware=sun8i

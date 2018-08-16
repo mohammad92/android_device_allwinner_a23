@@ -1,7 +1,7 @@
-LOCAL_PATH := device/enet/polaris
+LOCAL_PATH := device/allwinner/a23
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/enet/polaris/kernel
+	LOCAL_KERNEL := device/allwinner/a23/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
